@@ -16,4 +16,5 @@ int main()
     
     go_south_east(&latitude, &longitude);
     printf("Avatar now in  new location (%i %i)\n", latitude, longitude);
+    printf("Size of a char: %lu\n", sizeof(char));
 }
